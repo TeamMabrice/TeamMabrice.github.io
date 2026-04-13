@@ -226,7 +226,7 @@
       }
 
       .video-badge {
-        background: linear-gradient(135deg, #2ecc71, #27ae60);
+        background: linear-gradient(135deg, #047232, #0e5e30);
         color: white;
         font-size: 0.7em;
         font-weight: 900;
@@ -317,6 +317,14 @@
 
       .video-wrapper:hover .video-overlay-text {
         opacity: 1;
+      }
+      .video-image{ width: 100%;
+      height: auto}
+    .video-image img{
+    
+      width: 100%;
+      height: 100%;
+      
       }
 
       /* ── FOOTER ── */
@@ -423,26 +431,22 @@
       <div class="video-card">
         <div class="video-label">
           <span class="video-badge">🎬 Dernière vidéo</span>
-          <span class="video-title-text">Team Mabrice</span>
+          <span class="video-title-text">Présentation : Fabrice Le Clown – Team Mabrice</span>
         </div>
-        <a
-          href="https://www.youtube.com/watch?v=bJJVS6Ks4Uk"
-          target="_blank"
-          rel="noopener"
-          class="video-wrapper"
-        >
-          <img
+       <div class="video-wrapper" >
+          <div class="video-image"><a href="https://www.youtube.com/watch?v=bJJVS6Ks4Uk"    target="_blank"
+          rel="noopener" ><img
             src="image/couverture_youtube.jpg"
             alt="Présentation : Fabrice Le Clown – Team Mabrice"
-          />
-          <div class="play-btn">
-            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-          </div>
+           
+          /></a></div>
           <span class="video-overlay-text">▶ Regarder sur YouTube</span>
-        </a>
+  </div>
       </div>
 
       <p class="footer">© 2025 Team Mabrice · Tous droits réservés</p>
     </div>
+
+   
   </body>
 </html>
